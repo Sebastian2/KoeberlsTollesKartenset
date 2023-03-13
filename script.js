@@ -46,7 +46,7 @@ function drawCard() {
         const card = deck[cardIndex];
 
         var cardInfo = document.getElementById("card-info");
-        cardInfo.textContent = "Only "+numCards+" cards left in your Workout";
+        cardInfo.textContent = "There are "+numCards+" cards left";
 
         var workout = getWorkout(card);
         const workoutName = document.getElementById('workoutName');

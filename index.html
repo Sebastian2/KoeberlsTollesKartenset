@@ -5,23 +5,23 @@
     <link rel="sw" href="./sw.js">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karten-Workout</title>
+    <title>Workout mit Karten</title>
     <style>
       * {
         box-sizing: border-box;
       }
       .headers{
-        font-size: 25px;
+        font-size: 40px;
         text-align: center;
       }
       h1{
-			text-align: center;
-		  }
+        font-size: 30px;
+        text-align: center;
+      }
       p{
         font-size: 15px;
         text-align: center;
-        margin:0 0.3em 0.3em 0;
-        border: 1px solid grey; 
+        margin: 0.3em;
         padding: 10px;
       }
       .p1{
@@ -47,7 +47,7 @@
       #card-info {
         text-align:center;
         height: 50px;
-        }
+      }
       #timer{
         text-align:right;  
       }
@@ -55,7 +55,6 @@
         display: inline-block;
         vertical-align: top;
       }
-
       .workout{
         font-size: 3em;
         text-align: center;
@@ -69,24 +68,24 @@
         color:#000000;
         text-align:center;
         transition: all 0.2s;
-        }
-        .button1:hover{
-            color:#000000;
-            background-color:#726f6f;
-        } 
-      </style>
+      }
+      .button1:hover{
+        color:#000000;
+        background-color:#726f6f;
+      } 
+    </style>
   </head>
   <body>
-    <h1>Karten-Workout</h1>
-    <p>Klicken Sie auf den Button, um eine Karte zu ziehen!!</p>
-    <div id="buttons"style="text-align:center;">
-        <button id="drawButton"class="button1">Karte ziehen</button>
-        <button onClick="window.location.reload();" class="button1">Neustart</button>
+    <h1 class="headers">Workout mit Karten</h1>
+    <p>Auf den Button klicken, um eine neue Übung zu ziehen</p>
+    <div id="buttons" style="text-align:center;">
+      <button id="drawButton" class="button1">Karte ziehen</button>
+      <button onClick="window.location.reload();" class="button1">neu starten</button>
     </div>
-    <p id = "card-info"></p>
-    <p id="timer"00:00></p>
+    <br />
+    <div id="workoutName"></div>
     <div id="cardDisplay"></div>
-    <div id ="workoutName"></div>
+    <p id="card-info"></p>
     <script src="script.js"></script>
   </body>
 </html>
