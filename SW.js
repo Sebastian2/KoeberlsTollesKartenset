@@ -1,7 +1,8 @@
 
-let currentPath = self.location.href.replace("/SW.js", "");
 
-const cacheName = "Danke_Ewald"
+let currentPath = self.location.href.replace("/sw.js", "");
+
+const cacheName = "smart-home-v1"
 const assets = [
     "/",
     "/index.html",
