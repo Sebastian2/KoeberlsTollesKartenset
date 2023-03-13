@@ -1,24 +1,14 @@
 {
-
-"name": "Deck of Cards Workout",
-"short_name": "DoCW",
-
-"description": "A Simple Wokout with Cards App.",
-
-
-"scope": ".",
-"start_url": "./index.html",
-
-"prefer_related_applications": true,     
-
-
-"background_color": "#fff",
-"theme_color": "#fff",
-
-"display": "standalone", 
-
-
-"icons": [
+  "name": "Deck of Cards Workout",
+  "short_name": "DoCW",
+  "description": "A Simple Wokout with Cards App.",
+  "scope": ".",
+  "start_url": "./index.html",
+  "prefer_related_applications": true,
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "display": "standalone",
+  "icons": [
     {
       "src": "./icons/da_Bergler_512.png",
       "type": "image/png",
@@ -31,5 +21,5 @@
       "sizes": "192x192",
       "purpose": "any maskable"
     }
-]
+  ]
 }
