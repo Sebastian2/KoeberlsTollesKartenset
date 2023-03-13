@@ -1,5 +1,5 @@
 
-let currentPath = self.location.href.replace("/sw.js", "");
+let currentPath = self.location.href.replace("/SW.js", "");
 
 const cacheName = "Danke_Ewald"
 const assets = [
