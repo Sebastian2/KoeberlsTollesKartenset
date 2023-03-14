@@ -12,18 +12,18 @@ var deck = [
 ];
 
 const workouts = {
-    '🂡': 'PullUps','🂢': 'PullUps','🂣': 'PullUps','🂤': 'PullUps','🂥': 'PullUps','🂦': 'PullUps',
-    '🂧': 'PullUps','🂨': 'PullUps','🂩': 'PullUps','🂪': 'PullUps','🂫': 'PullUps','🂭': 'PullUps',
-    '🂮': 'PullUps',
-    '🂱': 'PushUps','🂲': 'PushUps','🂳': 'PushUps','🂴': 'PushUps','🂵': 'PushUps',
-    '🂶': 'PushUps','🂷': 'PushUps','🂸': 'PushUps','🂹': 'PushUps','🂺': 'PushUps',
-    '🂻': 'PushUps','🂽': 'PushUps','🂾': 'PushUps',
-    '🃁': 'Squats','🃂': 'Squats','🃃': 'Squats','🃄': 'Squats','🃅': 'Squats','🃆': 'Squats',
-    '🃇': 'Squats','🃈': 'Squats','🃉': 'Squats','🃊':'Squats','🃋':'Squats','🃍':'Squats',
-	'🃎': 'Squats',
-    '🃑':'Plank', '🃒':'Plank', '🃓':'Plank', '🃔':'Plank', '🃕':'Plank', '🃖':'Plank', '🃗':'Plank',
-    '🃘':'Plank', '🃙':'Plank', '🃚':'Plank', '🃛':'Plank', '🃝':'Plank',
-	'🃞': 'Plank',
+    '🂡': 'Liegestütz','🂢': 'Liegestütz','🂣': 'Liegestütz','🂤': 'Liegestütz','🂥': 'Liegestütz','🂦': 'Liegestütz',
+    '🂧': 'Liegestütz','🂨': 'Liegestütz','🂩': 'Liegestütz','🂪': 'Liegestütz','🂫': 'Liegestütz','🂭': 'Liegestütz',
+    '🂮': 'Liegestütz',
+    '🂱': 'Aufstehn du dickes Kind','🂲': 'Aufstehn du dickes Kind','🂳': 'Aufstehn du dickes Kind','🂴': 'Aufstehn du dickes Kind','🂵': 'Aufstehn du dickes Kind',
+    '🂶': 'Aufstehn du dickes Kind','🂷': 'Aufstehn du dickes Kind','🂸': 'Aufstehn du dickes Kind','🂹': 'Aufstehn du dickes Kind','🂺': 'Aufstehn du dickes Kind',
+    '🂻': 'Aufstehn du dickes Kind','🂽': 'Aufstehn du dickes Kind','🂾': 'Aufstehn du dickes Kind',
+    '🃁': 'Fußmassage','🃂': 'Fußmassage','🃃': 'Fußmassage','🃄': 'Fußmassage','🃅': 'Fußmassage','🃆': 'Fußmassage',
+    '🃇': 'Fußmassage','🃈': 'Fußmassage','🃉': 'Fußmassage','🃊':'Fußmassage','🃋':'Fußmassage','🃍':'Fußmassage',
+	'🃎': 'Fußmassage',
+    '🃑':'A Stamperl owa flott', '🃒':'A Stamperl owa flott', '🃓':'A Stamperl owa flott', '🃔':'A Stamperl owa flott', '🃕':'A Stamperl owa flott', '🃖':'A Stamperl owa flott', '🃗':'A Stamperl owa flott',
+    '🃘':'A Stamperl owa flott', '🃙':'A Stamperl owa flott', '🃚':'A Stamperl owa flott', '🃛':'A Stamperl owa flott', '🃝':'A Stamperl owa flott',
+	'🃞': 'A Stamperl owa flott',
     '🂿': 'iss eine Banane',
     '🃟': 'drink a bier'
 }
@@ -57,7 +57,7 @@ function drawCard() {
         workoutName.innerHTML = `<div class="workout">${workout}`;
 
         const cardDisplay = document.getElementById('cardDisplay');
-        if(workout == "Squats" || workout == "PushUps")
+        if(workout == "Fußmassage" || workout == "Aufstehn du dickes Kind")
         {
             cardDisplay.innerHTML = `<div class="cardred">${card}`; 
         }
