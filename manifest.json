@@ -1,6 +1,6 @@
 {
-  "name": "Deck of Cards Workout",
-  "short_name": "DoCW",
+  "name": "Workout mit Karten",
+  "short_name": "Tolles Karten Workout :)",
   "description": "A Simple Wokout with Cards App.",
   "scope": ".",
   "start_url": "./index.html",
@@ -10,13 +10,13 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "./icons/da_Bergler_512.png",
+      "src": "./icons/maskable_icon_x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     },
     {
-      "src": "./icons/da_Bergler_192.png",
+      "src": "./icons/maskable_icon_x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
