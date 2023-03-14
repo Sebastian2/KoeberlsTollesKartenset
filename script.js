@@ -1,3 +1,7 @@
+
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js");
+  }
 // Array mit den Karten-Unicodezeichen
 var deck = [
 	'🂡', '🂢', '🂣', '🂤', '🂥', '🂦', '🂧', '🂨', '🂩', '🂪', '🂫', '🂭', '🂮',
@@ -20,8 +24,8 @@ const workouts = {
     '🃑':'Plank', '🃒':'Plank', '🃓':'Plank', '🃔':'Plank', '🃕':'Plank', '🃖':'Plank', '🃗':'Plank',
     '🃘':'Plank', '🃙':'Plank', '🃚':'Plank', '🃛':'Plank', '🃝':'Plank',
 	'🃞': 'Plank',
-    '🂿': 'Joker',
-    '🃟': 'Joker'
+    '🂿': 'iss eine Banane',
+    '🃟': 'drink a bier'
 }
 // Funktion zum Mischen des Decks
 function shuffleDeck(deck) {

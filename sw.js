@@ -2,7 +2,7 @@
 
 let currentPath = self.location.href.replace("/sw.js", "");
 
-const cacheName = "smart-home-v1"
+const cacheName = "smart-cards-v1"
 const assets = [
     "/",
     "/index.html",
